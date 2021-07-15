@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang ="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name= "viewport" content="width= device-width, initial-scale= 1.0">
+	<title>Personal Portfolio</title>
+	<link rel="stylesheet" href = "styles.css">
+	<link rel="script" href= "main.js">
+	<link rel="stylesheet" media= "screen and(max-width: 800px)" href = "tablet.css">
+	<link rel="stylesheet" media= "screen and(max-width: 530px)" href = "phone.css">
+</head>
+<body>
+	<nav class="navbar">
+		<ul>
+			<li><a href = "#home">Home</a></li>
+			<li><a href = "#about">About</a></li>
+			<li><a href = "#portfolio">Portfolio</a></li>
+			<li><a href = "#services">Services</a></li>
+			<li><a href = "#contact">Contact Me</a></li>
+		</ul>
+	</nav>
+	<section id ="home">
+		<div class= "main">
+			<h1 class="headings">I AM <br>JUDE MARTIN OROSCA</h1>
+			<h2>Software Engineer</h2>
+		</div>
+	</section>
+	<section id ="about">
+		<div id= "intro">
+			<h1 class="headings">ABOUT ME</h1>
+			<h2>JUDE MARTIN OROSCA</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+			Qui dicta minus molestiae vel beatae natus eveniet ratione 
+			temporibus aperiam harum alias officiis assumenda officia 
+			quibusdam deleniti eos cupiditate dolore doloribus!</p>
+			<p>Ad dolore dignissimos asperiores dicta facere optio quod 
+			commodi nam tempore recusandae. Rerum sed nulla eum vero 
+			ex delectus voluptates rem at neque quos facere sequi unde optio aliquam!</p>
+			<p>Tenetur quod quidem in voluptatem corporis dolorum dicta 
+			sit pariatur porro quaerat autem ipsam odit quam beatae tempora 
+			quibusdam illum! Modi velit odio nam nulla unde amet odit pariatur at!</p>
+			<p>Consequatur rerum amet fuga expedita sunt et tempora saepe? 
+			Iusto nihil explicabo perferendis quos provident delectus ducimus 
+			necessitatibus reiciendis optio tempora unde earum doloremque commodi 
+			laudantium ad nulla vel odio?</p>
+		</div>
+	</section>
+	<section id="portfolio">
+		<h1 class="headings">PORTFOLIO</h1>
+		<div class="content-wrapper">
+			<div class ="portfolio-items-wrapper">
+				<div class ="portfolio-item-wrapper">
+					<div class="portfolio-img-background" style="background-image:url(images/banking.png)"></div>
+					<div class="img-text-wrapper">
+						<h2 class="img-title">Banking System</h2>
+						<div class="img-subtitle">A Mini Project During Java Training</div>
+					</div>
+				</div>
+				<div class ="portfolio-item-wrapper">
+					<div class="portfolio-img-background" style="background-image:url(images/pos.jpg)"></div>
+					<div class="img-text-wrapper">
+						<h2 class="img-title">Point of Sales System</h2>
+						<div class="img-subtitle">A Mini Project During C# Curriculum</div>
+					</div>
+				</div>
+				<div class ="portfolio-item-wrapper">
+					<div class="portfolio-img-background" style="background-image:url(images/cinema-reservation.jpg)"></div>
+					<div class="img-text-wrapper">
+						<h2 class="img-title">Cinema Seat Reservation</h2>
+						<div class="img-subtitle">A Thesis Project During Senior Year</div>
+					</div>
+				</div>
+				<div class ="portfolio-item-wrapper">
+					<div class="portfolio-img-background" style="background-image:url(images/hotel-reservation.jpg)"></div>
+					<div class="img-text-wrapper">
+						<h2 class="img-title">Hotel Reservation System </h2>
+						<div class="img-subtitle">A Mini Project During Java Training</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="services">
+		<h1 class ="headings">SERVICES</h1>
+		<div class="row">
+			<div class="box">
+				<img src="images/web-design.jpg" alt= "">
+				<h1 class="headings">Web <br> Designing</h1>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+				Qui dicta minus molestiae vel beatae natus eveniet ratione temporibus 
+				aperiam harum alias officiis assumenda officia quibusdam deleniti eos 
+				cupiditate dolore doloribus!</p>
+			</div>
+			<div class="box">
+				<img src="images/fullstack.png" alt= "">
+				<h1 class="headings">Full Stack Development</h1>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+				Qui dicta minus molestiae vel beatae natus eveniet ratione temporibus 
+				aperiam harum alias officiis assumenda officia quibusdam deleniti eos 
+				cupiditate dolore doloribus!</p>
+			</div>
+			<div class="box">
+				<img src="images/digital-marketing.png" alt= "">
+				<h1 class="headings">Digital Marketing</h1>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+				Qui dicta minus molestiae vel beatae natus eveniet ratione temporibus 
+				aperiam harum alias officiis assumenda officia quibusdam deleniti eos 
+				cupiditate dolore doloribus!</p>
+			</div>
+		</div>
+	</section>
+	<section id="contact">
+		<h1 class="headings">CONTACT</h1>
+		<form action="" class="form">
+			<input type="text" name="name" class="input" placeholder= "Enter Your Name">
+			<input type="email" name="email" class="input" placeholder= "Enter Your Email">
+			<textarea name="msg" id="msg" cols="30" rows="10" placeholder= "Enter Your Message"></textarea>
+			<input type="submit" value="SEND" id= "send">
+		</form>
+	</section>
+<script src = "./main.js"></script>
+</body>
+<footer>
+	&copy;All Rights Reserved
+</footer>
+</html>
